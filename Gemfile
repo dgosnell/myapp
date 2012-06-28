@@ -1,9 +1,11 @@
 source :rubygems
 
 # Server requirements
-# gem 'thin' # or mongrel
+gem 'thin' # or mongrel
 # gem 'trinidad', :platform => 'jruby'
-
+gem 'foreman'
+gem 'pg'
+gem 'dm-postgres-adapter'
 # Project requirements
 gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
